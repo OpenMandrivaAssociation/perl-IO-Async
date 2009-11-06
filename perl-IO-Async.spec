@@ -22,6 +22,7 @@ BuildRequires: perl(Test::More)
 BuildRequires: perl(Test::Refcount)
 BuildRequires: perl(Time::HiRes)
 BuildRequires: perl(Module::Build::Compat)
+BuildRequires: perl-common-sense
 BuildArch: noarch
 BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}
 
