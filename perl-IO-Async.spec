@@ -21,6 +21,7 @@ BuildRequires: perl(Test::Exception)
 BuildRequires: perl(Test::More)
 BuildRequires: perl-Test-Pod
 BuildRequires: perl(Test::Refcount)
+BuildRequires: perl-Test-Warn
 BuildRequires: perl(Time::HiRes)
 BuildRequires: perl(Module::Build::Compat)
 BuildRequires: perl-common-sense
