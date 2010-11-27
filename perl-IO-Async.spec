@@ -1,5 +1,5 @@
 %define upstream_name    IO-Async
-%define upstream_version 0.30
+%define upstream_version 0.31
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
@@ -18,6 +18,7 @@ BuildRequires: perl(IO::Poll)
 BuildRequires: perl(Socket::GetAddrInfo)
 BuildRequires: perl(Storable)
 BuildRequires: perl(Test::Exception)
+BuildRequires: perl(Test::Identity)
 BuildRequires: perl(Test::More)
 BuildRequires: perl-Test-Pod
 BuildRequires: perl(Test::Refcount)
