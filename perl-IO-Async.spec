@@ -20,6 +20,7 @@ BuildRequires: perl(Socket::GetAddrInfo)
 BuildRequires: perl(Storable)
 BuildRequires: perl(Test::Exception)
 BuildRequires: perl(Test::Identity)
+BuildRequires: perl(Test::Fatal)
 BuildRequires: perl(Test::More)
 BuildRequires: perl-Test-Pod
 BuildRequires: perl(Test::Refcount)
