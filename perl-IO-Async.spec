@@ -28,7 +28,6 @@ BuildRequires: perl-Test-Warn
 BuildRequires: perl(Time::HiRes)
 BuildRequires: perl(Module::Build::Compat)
 BuildRequires: perl-common-sense
-BuildRequires: perl-Test-Fatal
 BuildArch: noarch
 BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}
 
