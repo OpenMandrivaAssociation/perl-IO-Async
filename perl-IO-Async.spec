@@ -1,9 +1,9 @@
 %define upstream_name    IO-Async
-%define upstream_version 0.39
+%define upstream_version 0.40
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    A Loop using an C<IO::Poll> object
 License:    GPL+ or Artistic
