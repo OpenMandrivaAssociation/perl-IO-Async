@@ -1,2 +1,4 @@
+removed_sources:
+  IO-Async-0.45.tar.gz: 7abab069580225d01896daeda9178a15fe0f6a5c
 sources:
-  "IO-Async-0.45.tar.gz": 7abab069580225d01896daeda9178a15fe0f6a5c
+  IO-Async-0.62.tar.gz: 8a608f8b6750f10c523f64fbcd52c60b8cb641e3
