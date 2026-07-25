@@ -1,15 +1,15 @@
 %define upstream_name    IO-Async
-%define upstream_version 0.45
+%define upstream_version 0.805
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	4
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	A Loop using an C<IO::Poll> object
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://search.cpan.org/CPAN/authors/id/P/PE/PEVANS/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://metacpan.org/dist/IO-Async
+Source0:	https://cpan.metacpan.org/authors/id/P/PE/PEVANS/IO-Async-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
