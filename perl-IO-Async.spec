@@ -1,15 +1,13 @@
 %define upstream_name    IO-Async
-%define upstream_version 0.805
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	0.805
+Release:	2
 
 Summary:	A Loop using an C<IO::Poll> object
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/dist/IO-Async
-Source0:	https://cpan.metacpan.org/authors/id/P/PE/PEVANS/IO-Async-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/P/PE/PEVANS/IO-Async-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -53,7 +51,7 @@ File Handle IO
     pair of pipes connected to a child process).
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
